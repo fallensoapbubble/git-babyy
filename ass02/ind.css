@@ -1,0 +1,29 @@
+*{
+    background-color: bisque;
+}
+
+.box{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+button{
+    background-color: burlywood;
+    color: brown;
+    padding: 8px;
+    border: 2px blanchedalmond;
+}
+
+button:hover{
+    background-color:chocolate;
+    color: wheat;
+}
+
+.showing{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
