@@ -85,6 +85,7 @@ function isVowel (ch){
     }
     return false;
 }
+const showarr=document.querySelector('#array');
 ipstr.addEventListener("change",()=>{
     st=ipstr.value;
     st=st.toLowerCase();
@@ -98,6 +99,17 @@ ipstr.addEventListener("change",()=>{
         }
         
     }
+
+    str='vowels: ';
+    for(i in vo){
+        str=str+' '+vo[i];
+    }  
+    str+='\nconsonants: ';
+    for(i in co){
+        str=str+' '+co[i];
+    }    
+    console.log(str);
+    showarr.innerText=`${str}`
     console.log(vo);
     console.log(co);
 

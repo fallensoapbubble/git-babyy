@@ -1,0 +1,29 @@
+*{
+    margin: 1rem;
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+
+button{
+    border: 1px solid palevioletred;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+button:hover{
+    border: 2px solid palevioletred;
+    background-color: blanchedalmond;
+}
+
+div{
+    border: 2px solid burlywood;
+    margin: 2rem;
+}
+
+input{
+    border-radius: 1rem;
+    border:2px solid chocolate;
+
+}
+
