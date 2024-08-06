@@ -1,0 +1,24 @@
+
+.jumbotron{
+    width: 70%;
+    background-color: rgb(206, 202, 202);
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+
+hr{
+    margin: 2 rem;
+}
+
+#carouselExampleIndicators{
+    width: 70%;
+    margin-left: 5em;
+    height: 50%;
+}
+
+
+#some{
+    margin: 2rem;
+}
